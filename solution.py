@@ -67,10 +67,21 @@ class DocFusionSolution:
     vstats_path = os.path.join(model_dir, "vendor_stats.csv")
     vstats = pd.read_csv(vstats_path)
 
-    # Rules-based prediction
-    preds, reasons = predict_rules(df, vstats, z_thresh=3.5)
+    # Run rules (updated to return preds, scores, reasons)
+    preds, scores, reasons = predict_rules(df, vstats, z_thresh=3.5)
 
-    # Write output in required JSONL format
+    # Optional: save debug info for UI / local analysis (NOT used by harness)
+    debug_path = os.path.join(os.path.dirname(out_path), "debug_predictions.jsonl")
+    debug_rows = []
+    for row, pred, sc, rs in zip(data, preds, scores, reasons):
+      debug_rows.append({
+        "id": row.get("id"),
+        "score": sc,
+        "reasons": rs
+      })
+    write_jsonl(debug_path, debug_rows)
+
+    # Official predictions for the harness
     outputs = []
     for row, pred in zip(data, preds):
       fields = row.get("fields", {})
@@ -82,7 +93,6 @@ class DocFusionSolution:
         "is_forged": int(pred)
       })
 
-    # Ensure output directory exists
     out_dir = os.path.dirname(out_path)
     if out_dir:
       os.makedirs(out_dir, exist_ok=True)
