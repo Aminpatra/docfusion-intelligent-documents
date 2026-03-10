@@ -622,3 +622,17 @@ def extract_vendor(items):
   best_text = _strip_registration(best_text)
 
   return best_text
+
+
+def extract_fields_from_text(ocr_path):
+  """
+  High-level wrapper used by the pipeline.
+  Accepts path to OCR annotation text file and returns vendor/date/total.
+  """
+  items = load_boxes_with_pos(ocr_path)
+
+  return {
+    "vendor": extract_vendor(items),
+    "date": extract_date(items),
+    "total": extract_total(items),
+  }
