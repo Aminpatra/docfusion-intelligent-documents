@@ -3,7 +3,13 @@ tools/prepare_cord.py
 =====================
 Downloads CORD-v2 from HuggingFace and converts it to DocFusion JSONL format.
 
-Fix: ground_truth is stored as a JSON *string* in CORD-v2 — must json.loads() it.
+Schema (confirmed from inspection):
+  - ground_truth: JSON string with key "gt_parse" (singular, NOT "gt_parses")
+    - gt_parse.menu[].{nm, cnt, price, ...}
+    - gt_parse.sub_total.{subtotal_price, tax_price, ...}
+    - gt_parse.total.total_price
+  - valid_line: list of text-line objects
+    - valid_line[].words[].text  ← actual OCR word tokens
 
 Usage:
     python tools/prepare_cord.py
@@ -24,76 +30,85 @@ if str(ROOT) not in sys.path:
 
 def _parse_gt(sample: dict) -> dict:
     """
-    Return the first gt_parse dict from a CORD sample.
-    Handles both cases:
-      - ground_truth is already a dict  (older versions)
-      - ground_truth is a JSON string   (cord-v2 Parquet release)
+    Return the gt_parse dict from a CORD sample.
+    Key is 'gt_parse' (singular) — not 'gt_parses'.
     """
     gt_raw = sample.get("ground_truth", {})
-
-    # Deserialise if it came back as a string
     if isinstance(gt_raw, str):
         try:
             gt_raw = json.loads(gt_raw)
         except json.JSONDecodeError:
             return {}
+    # CORD uses 'gt_parse' (singular)
+    return gt_raw.get("gt_parse", {})
 
-    parses = gt_raw.get("gt_parses", [])
-    if not parses:
-        return {}
 
-    parse = parses[0]
-    # Each element of gt_parses can itself be a string in some versions
-    if isinstance(parse, str):
-        try:
-            parse = json.loads(parse)
-        except json.JSONDecodeError:
-            return {}
-
-    return parse
+def _extract_ocr_from_valid_lines(sample: dict) -> list[str]:
+    """
+    Extract OCR text from valid_line[].words[].text.
+    Groups each valid_line's words into a single text line.
+    """
+    lines: list[str] = []
+    for line_obj in sample.get("valid_line", []) or []:
+        words = []
+        for word in line_obj.get("words", []) or []:
+            text = str(word.get("text", "")).strip()
+            if text:
+                words.append(text)
+        if words:
+            lines.append(" ".join(words))
+    return lines
 
 
 def _extract_ocr_lines(sample: dict) -> list[str]:
-    parse = _parse_gt(sample)
-    if not parse:
-        return []
-
+    """
+    Extract OCR text lines from a CORD sample.
+    Uses valid_line word tokens (primary), then gt_parse structured values.
+    """
     lines: list[str] = []
 
-    for item in parse.get("menu", []):
-        for field in ("nm", "cnt", "price", "unitprice", "discountprice"):
-            val = item.get(field)
+    # ── Source 1: valid_line word tokens (actual OCR) ─────────────────────────
+    lines.extend(_extract_ocr_from_valid_lines(sample))
+
+    # ── Source 2: gt_parse structured values ──────────────────────────────────
+    parse = _parse_gt(sample)
+    if parse:
+        for item in parse.get("menu", []) or []:
+            for field in ("nm", "cnt", "price", "unitprice", "discountprice"):
+                val = item.get(field)
+                if val:
+                    lines.append(str(val).strip())
+
+        sub_total = parse.get("sub_total", {}) or {}
+        for field in ("subtotal_price", "discount_price", "service_price",
+                      "othersvc_price", "tax_price", "etc"):
+            val = sub_total.get(field)
             if val:
                 lines.append(str(val).strip())
-        for sub in item.get("sub_nm", []):
-            if sub:
-                lines.append(str(sub).strip())
-        for sub in item.get("sub_price", []):
-            if sub:
-                lines.append(str(sub).strip())
 
-    sub_total = parse.get("sub_total", {})
-    for field in ("subtotal_price", "discount_price", "service_price",
-                  "othersvc_price", "tax_price", "etc"):
-        val = sub_total.get(field)
-        if val:
-            lines.append(str(val).strip())
+        total_block = parse.get("total", {}) or {}
+        for field in ("total_price", "cashprice", "changeprice",
+                      "creditcardprice", "emoneyprice"):
+            val = total_block.get(field)
+            if val:
+                lines.append(str(val).strip())
 
-    total_block = parse.get("total", {})
-    for field in ("total_price", "cashprice", "changeprice",
-                  "creditcardprice", "emoneyprice"):
-        val = total_block.get(field)
-        if val:
-            lines.append(str(val).strip())
+    # Deduplicate while preserving order
+    seen: set[str] = set()
+    result: list[str] = []
+    for line in lines:
+        if line and line not in seen:
+            seen.add(line)
+            result.append(line)
 
-    return [l for l in lines if l]
+    return result
 
 
 def _extract_fields(sample: dict) -> dict:
     parse = _parse_gt(sample)
     total = None
     if parse:
-        total = parse.get("total", {}).get("total_price")
+        total = (parse.get("total") or {}).get("total_price")
     return {
         "vendor": None,
         "date":   None,
@@ -109,12 +124,12 @@ def convert_split(split: str, out_path: Path, verbose: bool = True) -> int:
               file=sys.stderr)
         sys.exit(1)
 
-    print(f"[CORD] Loading split '{split}' from HuggingFace…")
-    # trust_remote_code removed — not supported in newer huggingface_hub
+    print(f"[CORD] Loading split '{split}' from HuggingFace...")
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     count = 0
+    empty_count = 0
 
     with open(out_path, "w", encoding="utf-8") as f:
         for i, sample in enumerate(ds):
@@ -124,6 +139,9 @@ def convert_split(split: str, out_path: Path, verbose: bool = True) -> int:
             except Exception as e:
                 print(f"  [CORD] WARNING: skipping sample {i} ({e})")
                 continue
+
+            if not ocr_lines:
+                empty_count += 1
 
             record = {
                 "id":        f"cord_{split}_{i:05d}",
@@ -135,7 +153,12 @@ def convert_split(split: str, out_path: Path, verbose: bool = True) -> int:
             count += 1
 
     if verbose:
-        print(f"[CORD] Wrote {count} records → {out_path}")
+        filled = count - empty_count
+        pct = 100 * filled // max(count, 1)
+        print(f"[CORD] Wrote {count} records -> {out_path}")
+        print(f"[CORD]   With OCR text : {filled}/{count} ({pct}%)")
+        if empty_count:
+            print(f"[CORD]   Empty records : {empty_count}")
 
     return count
 
@@ -159,8 +182,8 @@ def main():
 
     print(f"\n[CORD] Done. Total records: {total}")
     print(f"[CORD] Files saved to: {out_dir.resolve()}")
-    print("\nNext: retrain to pick up CORD data automatically.")
-    print("  python check_submission.py --submission ./")
+    print("\nNext: retrain with enriched CORD data.")
+    print("  python tools/train_model.py")
 
 
 if __name__ == "__main__":

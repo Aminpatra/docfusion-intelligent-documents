@@ -1,100 +1,61 @@
-{"id": "cord_test_00000", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00001", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00002", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00003", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00004", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00005", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00006", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00007", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00008", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00009", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00010", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00011", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00012", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00013", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00014", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00015", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00016", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00017", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00018", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00019", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00020", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00021", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00022", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00023", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00024", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00025", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00026", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00027", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00028", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00029", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00030", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00031", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00032", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00033", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00034", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00035", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00036", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00037", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00038", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00039", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00040", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00041", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00042", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00043", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00044", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00045", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00046", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00047", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00048", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00049", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00050", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00051", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00052", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00053", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00054", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00055", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00056", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00057", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00058", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00059", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00060", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00061", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00062", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00063", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00064", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00065", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00066", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00067", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00068", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00069", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00070", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00071", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00072", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00073", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00074", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00075", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00076", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00077", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00078", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00079", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00080", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00081", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00082", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00083", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00084", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00085", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00086", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00087", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00088", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00089", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00090", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00091", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00092", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00093", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00094", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00095", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00096", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00097", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00098", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
-{"id": "cord_test_00099", "ocr_lines": [], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
+{"id": "cord_test_00001", "ocr_lines": ["J.STB PROMO", "17500", "Y.B.BAT", "46000", "Y.BASO PROM", "27500", "91000"], "fields": {"vendor": null, "date": null, "total": "91000"}, "is_forged": 0}
+{"id": "cord_test_00004", "ocr_lines": ["ICE BLACKCOFFE", "2", "82,000", "AVOCADO COFFEE", "1", "61,000", "CHIKEN KATSU FF", "51,000", "194,000", "19,400", "174,600", "200,000", "25,400"], "fields": {"vendor": null, "date": null, "total": "174,600"}, "is_forged": 0}
+{"id": "cord_test_00006", "ocr_lines": ["EGG TART", "1", "13,000", "CHOCO CUS ARD PASTRY", "2", "24,000", "REDBEAN BREAD", "9,000", "46,000", "50,000", "4,000"], "fields": {"vendor": null, "date": null, "total": "46,000"}, "is_forged": 0}
+{"id": "cord_test_00012", "ocr_lines": ["BLUS WANITA", "1", "@120,000", "0%", "SHOPPING BAG", "@880", "100%", "120,000", "0"], "fields": {"vendor": null, "date": null, "total": "120,000"}, "is_forged": 0}
+{"id": "cord_test_00013", "ocr_lines": ["BASO KUAH", "1", "43.636", "A.MINERAL GELAS", "3,000", "['46.636', '46.636']", "4.664", "51.300", "52.000", "700"], "fields": {"vendor": null, "date": null, "total": "51.300"}, "is_forged": 0}
+{"id": "cord_test_00014", "ocr_lines": ["RedVelvet Cheese Slc", "1", "38,000", "Chicken Baked Rice", "55,000", "Fish n Chips", "65,000", "Mushroom Soup", "35,000", "Chamomile", "25,000", "Iced Tea", "20,000", "238,000", "17,850", "25,585", "281,435", "200,000", "18,565"], "fields": {"vendor": null, "date": null, "total": "281,435"}, "is_forged": 0}
+{"id": "cord_test_00015", "ocr_lines": ["Lemon Tea (L)", "1", "25.000", "Caramel Small", "38.000", "63.000", "70.000", "7.000"], "fields": {"vendor": null, "date": null, "total": "63.000"}, "is_forged": 0}
+{"id": "cord_test_00016", "ocr_lines": ["[LG] BLACK SAKURA", "1", "59,091", "IVINERAL WATER (bundling) 5k", "4,545", "63,636", "6,364", "0", "70,000", "100,000", "30,000"], "fields": {"vendor": null, "date": null, "total": "70,000"}, "is_forged": 0}
+{"id": "cord_test_00017", "ocr_lines": ["Goblin's Mace", "1", "25,000", "Mozarella Hot Dog", "2", "38,000", "Chili Pepper Croquette", "14,000", "Cheese Croquette", "Plastik Amook", "0", "Plastik Putih Take Away", "91,000", "(0)", "Rp. 91,000"], "fields": {"vendor": null, "date": null, "total": "Rp. 91,000"}, "is_forged": 0}
+{"id": "cord_test_00019", "ocr_lines": ["AMBUSH DBL CHS", "4", "60000", "AMBUSH CHS BUR", "10", "100000", "160000", "16000", "176000"], "fields": {"vendor": null, "date": null, "total": "176000"}, "is_forged": 0}
+{"id": "cord_test_00020", "ocr_lines": ["cashew nuts chkn", "1", "64,500", "garlic pepper beef", "79,500", "red curry beef", "69,500", "phad thai", "steamed rice", "4", "47,600", "325,600", "17,908", "34,351", "377,859"], "fields": {"vendor": null, "date": null, "total": "377,859"}, "is_forged": 0}
+{"id": "cord_test_00021", "ocr_lines": ["NASI GOR SFD TLR", "1", "Rp 35.000", "35.000", "ES TEH TAWAR", "Rp 3.000", "3.000", "Rp 38.000", "Rp 50.000", "Rp 12.000"], "fields": {"vendor": null, "date": null, "total": "Rp 38.000"}, "is_forged": 0}
+{"id": "cord_test_00022", "ocr_lines": ["[MD] SOFT STEAMED CHEESEC", "2", "20,000", "[MD] SOFT STEAMED CHOCOCA", "40,000", "100,000", "60,000"], "fields": {"vendor": null, "date": null, "total": "40,000"}, "is_forged": 0}
+{"id": "cord_test_00023", "ocr_lines": ["TWIST DONUT", "6", "54,000", "REDBEAN BREAD", "1", "9,000", "63,000", "70,000", "7,000"], "fields": {"vendor": null, "date": null, "total": "63,000"}, "is_forged": 0}
+{"id": "cord_test_00024", "ocr_lines": ["5001-Corn Flakes Cookies", "x1", "Rp.56.000", "5003-Chokoreto Cookies", "Rp.62.000", "6002-Plastic Bag Medium", "Rp.0", "Rp.118.000", "118.000"], "fields": {"vendor": null, "date": null, "total": "Rp.118.000"}, "is_forged": 0}
+{"id": "cord_test_00025", "ocr_lines": ["TWIST STRAWBERRY DONUT", "1", "10,000", "TLJ CROQUETTE", "17,000", "POTATO PEPPER BAGEL", "16,000", "43,000", "50,000", "7,000"], "fields": {"vendor": null, "date": null, "total": "43,000"}, "is_forged": 0}
+{"id": "cord_test_00026", "ocr_lines": ["Nasi Cap Cay Porsi B esar", "1", "65.000", "Teh Tawar", "2", "4.000", "Fu Yung Hai", "Rp 138.000", "Rp 0"], "fields": {"vendor": null, "date": null, "total": "Rp 138.000"}, "is_forged": 0}
+{"id": "cord_test_00027", "ocr_lines": ["PKT AYAM", "33,000", "GULAI OTAK", "23,000", "56,000", "5,600", "61,600"], "fields": {"vendor": null, "date": null, "total": "61,600"}, "is_forged": 0}
+{"id": "cord_test_00028", "ocr_lines": ["SAMGYOPSAL", "2", "194,000", "SUL LUNG TANG", "1", "75,000", "MAKOLI", "100,000", "369,000", "0", "18,450", "38,745", "426,195"], "fields": {"vendor": null, "date": null, "total": "426,195"}, "is_forged": 0}
+{"id": "cord_test_00029", "ocr_lines": ["COLD OCHA", "1", "10,909", "BCA PROMO", "54,455", "SKEWERED SHUMAI", "12,727", "SKEWERED TOFU ROLL", "EBI TEMPURA", "13,636", "KITSUNE UDON (KIDS)", "28,182", "132,636", "13,264", "145,900", "[145,900]"], "fields": {"vendor": null, "date": null, "total": "145,900"}, "is_forged": 0}
+{"id": "cord_test_00031", "ocr_lines": ["SALMON PESTO", "1", "85,500", "-85,500", "10,260", "18,126", "113,886"], "fields": {"vendor": null, "date": null, "total": "113,886"}, "is_forged": 0}
+{"id": "cord_test_00033", "ocr_lines": ["GRILLED BABY POTATO (R", "1", "50,500", "HOT TUNA", "67,000", "-67,000", "117,500", "11,070", "19,557", "148,127"], "fields": {"vendor": null, "date": null, "total": "148,127"}, "is_forged": 0}
+{"id": "cord_test_00034", "ocr_lines": ["Ash Chick Sambal Matah", "5", "75.000", "Jamur Goreng", "2", "10.000", "85.000", "8.500", "93.500", "100.000", "6.500"], "fields": {"vendor": null, "date": null, "total": "93.500"}, "is_forged": 0}
+{"id": "cord_test_00035", "ocr_lines": ["TWIST DONUT", "2", "18,000", "BANANA DONUT", "1", "11,000", "CREAMCHEESE BREAD", "13,000", "FRANKFRUT SAUSAGE ROLL", "12,000", "54,000", "104,000", "50,000"], "fields": {"vendor": null, "date": null, "total": "54,000"}, "is_forged": 0}
+{"id": "cord_test_00038", "ocr_lines": ["XLB Org Pork 10x", "1", "78,000", "Sicito Babi", "65,000", "Hotplate Tahu", "58,000", "DF Fish Fillet Garlc", "108,000", "LM Pork Belly", "88,000", "Siew Mai", "38,800", "Kwan Yin Cup", "5", "50,000", "Herbal Jelly", "38,000", "Onde-Onde", "561,800", "42,135", "60,394", "664,329"], "fields": {"vendor": null, "date": null, "total": "664,329"}, "is_forged": 0}
+{"id": "cord_test_00039", "ocr_lines": ["LUNCH BOX 3P SET W/RED BAG & SP00 N.", "8", "1,944,000", "243,000", "RICE CASE 7L W/CUP", "5", "975,000", "195,000", "LUNCH BOX 3P SET W/BLACK BAG & SP OON", "4", "972,000", "3,112,800"], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
+{"id": "cord_test_00040", "ocr_lines": ["Snack Lestari All", "2", "54,000", "27,000", "Bakery Aneka Sisir Banana,Pizza,yoko,Mar mer,Daging,abon,keju,cokelat,dll", "14,000", "7,000", "68,000", "100,000", "32,000"], "fields": {"vendor": null, "date": null, "total": "68,000"}, "is_forged": 0}
+{"id": "cord_test_00041", "ocr_lines": ["Chicken Maryland", "47619.00", "Cappucino (Hot/Iced)", "30303.00", "Naga Lychee Juice", "34632.00", "Cafe Latte", "Hot Chocolate Marshmallo", "Chicken Cesar Salad", "43290.00", "Mineral Water", "12987.00", "Lychee/Peach/Lemon/Mango", "25974.00", "316017.00", "48982.68", "365000.00"], "fields": {"vendor": null, "date": null, "total": "365000.00"}, "is_forged": 0}
+{"id": "cord_test_00045", "ocr_lines": ["Lemon Tea (L).", "1", "25.000", "Mike & Ike Original", "28.000", "Mike & Berry", "Roti Keju Manis.", "7.000", "88,000", "88.000", "0"], "fields": {"vendor": null, "date": null, "total": "88,000"}, "is_forged": 0}
+{"id": "cord_test_00046", "ocr_lines": ["S-Bubble Milk Tea", "1X", "20,000", "@20,000", "S-Caramel Milk Tea", "40,000", "0"], "fields": {"vendor": null, "date": null, "total": "40,000"}, "is_forged": 0}
+{"id": "cord_test_00047", "ocr_lines": ["COPIA 1 /GB", "1", "45,000.00", "PLASTIC BAG RED CENTRAL SI", "0.00", "18,000.00", "63,000.00"], "fields": {"vendor": null, "date": null, "total": "63,000.00"}, "is_forged": 0}
+{"id": "cord_test_00049", "ocr_lines": ["Ptgs Eggtart", "1", "12,000", "Choco Melt", "11,000", "23,000", "50,000", "27,000"], "fields": {"vendor": null, "date": null, "total": "23,000"}, "is_forged": 0}
+{"id": "cord_test_00051", "ocr_lines": ["(TA) NASI GRG TERI MEDAN", "4", "165,460", "(TA) BIHUN GORENG SEAFOOD", "1", "40,456", "(TA) KWETIAW SEAFOOD SIRAM", "42,274", "(TA) NASI GORENG", "2", "55,456", "303,646", "30,365", "334,011", "334,000"], "fields": {"vendor": null, "date": null, "total": "334,000"}, "is_forged": 0}
+{"id": "cord_test_00052", "ocr_lines": ["THAI ICED TEA", "1", "20.000", "@20.000", "40.000", "100.000", "60.000"], "fields": {"vendor": null, "date": null, "total": "40.000"}, "is_forged": 0}
+{"id": "cord_test_00053", "ocr_lines": ["Pecel Komplit + Nasi", "1", "42.000", "SOTO KUDUS", "47.000", "Mineral Water", "2", "18.000", "107.000", "5.350", "11.235", "123.585"], "fields": {"vendor": null, "date": null, "total": "123.585"}, "is_forged": 0}
+{"id": "cord_test_00055", "ocr_lines": ["APPLE CINNAMON PASTRY", "1", "22,000", "ROYAL CHEESE TART", "2", "32,000", "54,000"], "fields": {"vendor": null, "date": null, "total": "54,000"}, "is_forged": 0}
+{"id": "cord_test_00057", "ocr_lines": ["ICED TT", "20,000", "ICED GT", "22,000", "42,000"], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
+{"id": "cord_test_00059", "ocr_lines": ["Tahu Isi", "2", "78,000", "Tea", "5", "30,000", "Kepiting 7-8.4ons - Chilly 0.7 1", "1", "297,490", "Udang Telur Asin - Regular", "47,500", "Kailan 2 Rasa", "45,000", "Mantau - 2 pcs", "25,000", "Sweet Tea", "16,000", "Nasi Putih", "7", "42,000", "Mantau - 3 pcs", "37,500", "618,490", "61,849", "680,500"], "fields": {"vendor": null, "date": null, "total": "680,500"}, "is_forged": 0}
+{"id": "cord_test_00060", "ocr_lines": ["Topping Milo Sparkle (untuk 1 Po rsi)", "1x", "1.250", "Bola Ubi Mini Original (14 Pcs )", "2x", "25.000", "12.500", "26.250", "-"], "fields": {"vendor": null, "date": null, "total": "26.250"}, "is_forged": 0}
+{"id": "cord_test_00061", "ocr_lines": ["TALAM UNGU", "1x", "6,500", "6500", "-2 600", "AREM - AREM", "1X", "8,000", "8000", "-3,200", "LEMPER", "2X", "18,000", "9000", "-7.200", "MIKA SEDANG", "0", "PLASTIK KECIL", "TEH KOTAK", "5,000", "5000", "24,500"], "fields": {"vendor": null, "date": null, "total": "24,500"}, "is_forged": 0}
+{"id": "cord_test_00062", "ocr_lines": ["XXI Java Tea (M)", "1", "18.000", "Combo 2", "30.000", "48.000", "50.000", "2,000"], "fields": {"vendor": null, "date": null, "total": "48.000"}, "is_forged": 0}
+{"id": "cord_test_00063", "ocr_lines": ["Kopi Susu Kampung.", "x1", "19.000", "x2", "38.000", "57.000", "60.000", "3.000"], "fields": {"vendor": null, "date": null, "total": "57.000"}, "is_forged": 0}
+{"id": "cord_test_00066", "ocr_lines": ["PILLOW DURIA", "36,364", "PLASTIK 25", "0", "3,636", "40,000", "50,000", "10,000"], "fields": {"vendor": null, "date": null, "total": "40,000"}, "is_forged": 0}
+{"id": "cord_test_00069", "ocr_lines": ["[MD] SOFT MORNING ROLL", "1", "18,000", "REAL HONEY PANCAKE BREAD", "2", "20,000", "CUSTARD BRIOCHE", "4", "36,000", "74,000", "100,000", "26,000"], "fields": {"vendor": null, "date": null, "total": "74,000"}, "is_forged": 0}
+{"id": "cord_test_00070", "ocr_lines": ["UDANG RE", "2", "432,000", "216,000", "=*LARGE*==", "AYM GR JUN NJAN", "1", "108,000", "SAPO TH SEAFOOD", "172,000", "POCAI 3", "222.000", "111,000", "=*MEDIUM*=", "GURAME FILLET M", "163,000", "BIHUN GORENG JJ", "116,000", "ICED TEA", "5", "60,000", "12,000", "NASI PUTIH", "7", "70,000", "10,000", "1,343,000", "80,580", "142,358", "['1,213,000', '60,000', '70,000']", "1,565,938"], "fields": {"vendor": null, "date": null, "total": "1,565,938"}, "is_forged": 0}
+{"id": "cord_test_00073", "ocr_lines": ["1001-Choco Bun", "x1", "22.000", "6001-Plastic Bag Small", "0", "25.000", "3.000"], "fields": {"vendor": null, "date": null, "total": "22.000"}, "is_forged": 0}
+{"id": "cord_test_00074", "ocr_lines": ["BLACKCURRANT", "1", "32,000", "SPRITE", "GRILLED CALAMARI", "85,000", "DINE FOR 2", "129,000", "278,000", "22,240", "30,024", "['64,000', '214,000']", "330,264"], "fields": {"vendor": null, "date": null, "total": "330,264"}, "is_forged": 0}
+{"id": "cord_test_00075", "ocr_lines": ["CHOCO PUFF", "1", "29,091", "CREAMY BEEF CLS FTC", "42,727", "NEW ORIENTAL CHK RICE", "34,545", "LIPTON PITCHER", "54,545", "SC/P SUPER SUPREME", "47,273", "CB/P BLACK PEPP BEEF", "48,182", "256,363", "25,637", "282,000"], "fields": {"vendor": null, "date": null, "total": "282,000"}, "is_forged": 0}
+{"id": "cord_test_00076", "ocr_lines": ["BASO TAHU", "*46000", "NASI PUTIH", "*6000", "2x", "*12000", "6000", "*110000"], "fields": {"vendor": null, "date": null, "total": null}, "is_forged": 0}
+{"id": "cord_test_00079", "ocr_lines": ["1001-Choco Bun", "x1", "22.000", "6001-Plastic Bag Small", "0"], "fields": {"vendor": null, "date": null, "total": "22.000"}, "is_forged": 0}
+{"id": "cord_test_00081", "ocr_lines": ["3002-Kyoto Choco Mochi", "x2", "28.000", "14.000", "1001-Choco Bun", "x1", "22.000", "6001-Plastic Bag Small", "0", "50.000"], "fields": {"vendor": null, "date": null, "total": "50.000"}, "is_forged": 0}
+{"id": "cord_test_00082", "ocr_lines": ["Chocolate Log Cake", "1x", "115,000", "Snowman Cake Chocolate", "60,000", "Strawberry Log Cake", "2x", "210,000", "105,000", "385,000", "0"], "fields": {"vendor": null, "date": null, "total": "385,000"}, "is_forged": 0}
+{"id": "cord_test_00084", "ocr_lines": ["Kroket", "1x", "12.000", "@ 12.000", "Arem Arem", "2x", "24.000", "Rp 36.000", "Rp 3.600", "Rp 39.600"], "fields": {"vendor": null, "date": null, "total": "Rp 39.600"}, "is_forged": 0}
+{"id": "cord_test_00085", "ocr_lines": ["Nasi Putih", "3", "30.000", "Nasi Tambah", "1", "7.000", "Ayam Pop", "2", "40.000", "Samabal SP", "11.000", "Sambal Gabus Asin Cb", "18.000", "Kerupuk Kuah", "15.000", "Ikan Bawal Besa", "28.500", "Telur Dadar", "10.000", "Teh Es", "Teh Manis", "9.000", "Es Batu", "4.000", "179.500", "17.950", "['159.500', '20.000']", "197.450"], "fields": {"vendor": null, "date": null, "total": "197.450"}, "is_forged": 0}
+{"id": "cord_test_00086", "ocr_lines": ["Cheezemania", "1", "9,500", "Mamamia", "12,500", "22,000", "52,000", "30,000"], "fields": {"vendor": null, "date": null, "total": "22,000"}, "is_forged": 0}
+{"id": "cord_test_00088", "ocr_lines": ["STIX ECLAIRS", "1 x", "19,000", "ALMOND CREAM CHEESE", "28,000", "47,000", "0"], "fields": {"vendor": null, "date": null, "total": "47,000"}, "is_forged": 0}
+{"id": "cord_test_00091", "ocr_lines": ["BAKSO BNGKS", "1", "15.000", "GORENGAN", "6", "6.000", "21.000", "30.000", "9.000"], "fields": {"vendor": null, "date": null, "total": "21.000"}, "is_forged": 0}
+{"id": "cord_test_00094", "ocr_lines": ["TAHU GORENG", "1", "28,000", "CAKWE", "17,000", "PHO TAI CHIN(R)", "63,000", "TEA", "11,000", "119,000", "8,330", "12,733", "140,063"], "fields": {"vendor": null, "date": null, "total": "140,063"}, "is_forged": 0}
+{"id": "cord_test_00095", "ocr_lines": ["BASO TAHU", "1", "43,181", "ES JERUK", "13,000", "56,181", "5,618", "61,799", "['62,000', '201']"], "fields": {"vendor": null, "date": null, "total": "61,799"}, "is_forged": 0}
+{"id": "cord_test_00097", "ocr_lines": ["BUBUR GO", "2", "40.000", "20.000", "PUYUH GO", "6.000", "SATE ATI GO", "3", "9.000", "3.000", "55.000"], "fields": {"vendor": null, "date": null, "total": "55.000"}, "is_forged": 0}
+{"id": "cord_test_00098", "ocr_lines": ["BLACK PAPPER MEATBALL PAS", "1", "79,000", "TRUFFLE CREAM", "77,000", "EARL GREY MILK TEA", "59,000", "215,000", "12,900", "22,790", "250,690"], "fields": {"vendor": null, "date": null, "total": "250,690"}, "is_forged": 0}
