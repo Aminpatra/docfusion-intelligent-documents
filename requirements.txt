@@ -1,4 +1,22 @@
-numpy
-pandas
-scikit-learn
-joblib
+# ── Core ML & Data ────────────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.13
+joblib>=1.4
+
+# ── OCR engines (install at least one) ───────────────────────────────────────
+# PaddleOCR (preferred – GPU/CPU, multi-language)
+paddlepaddle>=2.6; sys_platform != "win32"
+paddleocr>=2.7; sys_platform != "win32"
+
+# Tesseract Python wrapper (fallback – requires system tesseract)
+pytesseract>=0.3.10
+Pillow>=10.0
+
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit>=1.35
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66
+python-dotenv>=1.0
