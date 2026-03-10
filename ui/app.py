@@ -237,11 +237,12 @@ if uploaded is not None:
     with col_right:
         st.subheader("📋 Extracted Fields")
 
-        status_color = "#e74c3c" if is_forged else "#27ae60"
+        status_color = "rgba(231, 76, 60, 0.2)" if is_forged else "rgba(39, 174, 96, 0.2)"
+        status_border = "#e74c3c" if is_forged else "#27ae60"
         status_label = "🚨 SUSPICIOUS / FORGED" if is_forged else "✅ APPEARS GENUINE"
         st.markdown(
-            f"<div style='background:{status_color};color:white;padding:12px;"
-            f"border-radius:8px;font-size:1.1em;font-weight:bold;text-align:center'>"
+            f"<div style='background:{status_color}; border:2px solid {status_border}; "
+            f"padding:12px; border-radius:8px; font-size:1.1em; font-weight:bold; text-align:center'>"
             f"{status_label}</div>",
             unsafe_allow_html=True,
         )
@@ -257,10 +258,10 @@ if uploaded is not None:
 
         for label, value in field_data.items():
             is_missing = value == "—"
-            bg = "#fff3f3" if is_missing else "#f0fff4"
+            bg = "rgba(255, 99, 71, 0.15)" if is_missing else "rgba(46, 204, 113, 0.15)"
             icon = "❌" if is_missing else "✅"
             st.markdown(
-                f"<div style='background:{bg};padding:10px;border-radius:6px;"
+                f"<div style='background:{bg}; padding:10px; border-radius:6px; "
                 f"margin-bottom:8px'><b>{label}</b>: {icon} {value}</div>",
                 unsafe_allow_html=True,
             )
